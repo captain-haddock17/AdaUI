@@ -13,11 +13,11 @@ It uses the [Observer pattern paradigm](https://en.wikipedia.org/wiki/Observer_p
  * Updating data in the **State** object will trigger the update of the **View**
  * The **Business Model Unit** - or main program - only communicates with the View through the **state** object
  * **Multiple clients** (Business Model Units) may access the **State** object in a **multi-threaded way** in order to address/update the **same View** object
+ * The **State** object may adapt/transform some of the incoming data into user-formated data, as for dates, physical units, ... ready to be displayed by the **View** 
 
 ## Design paradigm
 
 Inspired by the View-Model software design pattern as found and proted by [Apple’s SwiftUI](https://developer.apple.com/tutorials/swiftui).
-
 
 This is the end of former MVC design pattern!
 
