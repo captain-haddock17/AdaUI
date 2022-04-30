@@ -2,7 +2,7 @@
 
 AdaUI is a modern way to declare multi-threaded user interfaces for any platform.
 
-It uses the [Observer pattern paradigm](https://en.wikipedia.org/wiki/Observer_pattern)
+It uses the [Observer pattern paradigm](https://en.wikipedia.org/wiki/Observer_pattern), and all the Ada language OO and async calls goodies
 
 
 ## Features
@@ -15,11 +15,14 @@ It uses the [Observer pattern paradigm](https://en.wikipedia.org/wiki/Observer_p
  * **Multiple clients** (Business Model Units) may access the **State** object in a **multi-threaded way** in order to address/update the **same View** object
  * The **State** object may adapt/transform some of the incoming data into user-formated data, as for dates, physical units, ... ready to be displayed by the **View** 
 
+
 ## Design paradigm
 
-Inspired by the View-Model software design pattern as found and proted by [Apple’s SwiftUI](https://developer.apple.com/tutorials/swiftui).
+Inspired by the state-management software design pattern as promoted by Apple for his new [SwiftUI framework](https://developer.apple.com/tutorials/swiftui).
 
-This is the end of former MVC design pattern!
+This is the end of former MVC or MVVM design pattern!
+
+Read this inspiring article [How MVVM devs get MVVM wrong in SwiftUI: From view model to state](https://swift2931.medium.com/how-mvvm-devs-get-mvvm-wrong-in-swiftui-a937a4268483) 
 
 
 ## Implementation Notes
