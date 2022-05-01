@@ -2,7 +2,8 @@
 
 AdaUI is a modern way to declare multi-threaded user interfaces for any platform.
 
-It uses the [Observer pattern paradigm](https://en.wikipedia.org/wiki/Observer_pattern), and all the Ada language OO and async calls goodies
+It uses the [Observer pattern paradigm](https://en.wikipedia.org/wiki/Observer_pattern),and [State pattern](https://en.wikipedia.org/wiki/State_pattern), 
+and all the Ada language OO and tasking features.
 
 
 ## Features
